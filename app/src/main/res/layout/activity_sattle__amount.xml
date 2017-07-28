@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic5"
+    tools:context="com.example.sivanjaanandaraja.e_banking.Sattle_Amount">
+
+    <LinearLayout
+        android:id="@+id/layoutOne"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="Settle Amount"
+            android:textColor="#ffffff"
+            android:textSize="40dp" />
+
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:alpha="0.6"
+            android:background="#B2EBF2"
+            android:hint=" Account number" />
+
+
+        <EditText
+            android:id="@+id/lname"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:alpha="0.6"
+            android:background="#B2EBF2"
+            android:hint=" Amount"
+
+            />
+
+        <EditText
+            android:id="@+id/editMobile"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:alpha="0.6"
+            android:background="#B2EBF2"
+            android:hint=" Resever's name"
+
+            />
+
+
+
+
+        <Button
+            android:id="@+id/SaveInformation"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:alpha="0.8"
+            android:background="#303F9F"
+            android:onClick="Save"
+            android:text="confirm" />
+
+
+        />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
